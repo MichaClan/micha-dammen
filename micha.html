@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/micha.css">
+</head>
+
+<body>
+  <header>
+    <h1>Game van Micha</h1>
+  </header>
+  <div id="leaderboard">
+    <h2>Leaderboard</h2>
+    <p id="blackWins">Black Wins: 0</p>
+    <p id="whiteWins">White Wins: 0</p>
+  </div>
+  <label for="gameMode">Choose game mode:</label>
+  <select id="gameMode">
+    <option value="singlePlayer">Two Players</option>
+    <option value="aiMode">AI Mode - WIP</option>
+  </select>
+  <div class="controls">
+    <!-- Game buttons -->
+    <button id="startBtn">Start Spel</button>
+    <button id="resetBtn">Begin Opnieuw</button>
+  </div>
+  <div id="turnIndicator"><span id="currentPlayer"></span></div>
+  <main></main>
+  <footer></footer>
+  <script src="js/micha.js"></script>
+</body>
+
+</html>
